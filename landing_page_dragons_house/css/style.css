@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imagens/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    list-style: none;
+    padding: 5px 10px;
+}
+li{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo{
+    padding: 0 0 0 100px;
+}
+.logo_hbo{
+    width: 120px;
+}
+.avatar{
+    margin: 0 0 0 -120px;
+}
+.imagem_perfil{
+    width: 50px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end ;
+    margin: 350px 0 0 0;
+}
+.serie_temporada1{
+    width: 300px;
+}
+h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.botao_temporada{
+    background-color: #6C4424;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 2px solid black;
+}
+
+/*CSS da pagina temporada.html*/
+
+.body{
+    background-image: url(../imagens/trono_de_ferro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    background-color: black;
+    color: #ffffff;
+    width: 50%;
+    margin: 50px 0 0 350px;
+    font-family: 'Poppins', sans-serif;
+}
+.botao_home{
+    background-color: #6C4424;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.video{
+    margin: 100px 0 0 400px;
+}
